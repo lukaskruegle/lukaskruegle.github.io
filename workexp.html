@@ -8,57 +8,85 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     <title>Lukas Kruegle</title>
   </head>
 <body>
+  <div class="container-fluid" id="container">
   	<div class="container">
-  		<!--Page Header-->
-		<div class="page-header">
-			<h1>Lukas Kruegle
-				<!--Navigation Bar-->
-				<h4>
-					<div class="row">
-						<ul class="list-inline pull-right" style="list-style-type: none">
-							<li><a href=index.html>About</a></li>
-							<li><a href=workexp.html>Work Experience</a></li>
-							<li><a href=projects.html>Projects</a></li>
-							<li><a href="music.html">Music</a></li>
-							<li><a href="theatre.html">Theatre</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-				</h4>
-				<!--End of Navigation Bar-->
-			</h1>
-		</div>
+	 		<!--Page Header-->
+			<div class="page-header" id="header">
+				<h1>Lukas Kruegle
+					<!--Navigation Bar-->
+					<h4>
+						<div class="row">
+							<ul class="list-inline pull-right" style="list-style-type: none">
+								<li><a href=index.html>About Me</a></li>
+								<li><a href=workexp.html>Work Experience</a></li>
+								<li><a href=projects.html>Projects</a></li>
+								<li><a href="music.html">Music</a></li>
+								<li><a href="theatre.html">Theatre</a></li>
+								<li><a href="contact.html">Contact Me</a></li>
+							</ul>
+						</div>
+					</h4>
+					<!--End of Navigation Bar-->
+				</h1>
+			</div>
 		<!--End Page Header-->
 		
 		<!--Content-->
-		<div class="container">
+		<div class="container" id="body">
+			<h2 class="media-heading">Work Experience</h2>
 			<div class="media">
-				<div class="media-right media-top pull-right">
-					<div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
-						<img class="thumbnail" src="media/headshot1.jpg">
+				<div class="row jumbotron" style="background-color: #ffe6e6">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="media-right media-top pull-left">
+							<img class="img-responsive" src="media/Avida-Logo-startpage.gif">
+						</div>
+					</div>
+					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+						<div class="media-body">
+							<p>Lukas spent his time at Avida performing various vital tasks such as product assembly, quality assurance testing, and product development. Working in a smaller, rapid development company was incredibly helpful in making Lukas into the adaptible worker he is today. He jumped between soldering surfacemount components to intricately designed PCBs, assembling and focusing camera systems, testing various transmitters and sensors, to developing a user interface and messaging scheme to give more flexible system control to the user.
+								<br><br>
+							He also independently developed a tech demo for an iPhone-controlled multisensor based on the TI SensorTag. Using HTML, Javascript, and the SensorTag API, he created a small application allowing him to set various alarm sensitivties and get real-time updates.
+							</p>
+						</div>
 					</div>
 				</div>
-				<div class="media-body">
-					<h2 class="media-heading">Work Experience</h3>
-					<p>Look at all of these work things I've done</p>
+				<div class="row jumbotron" style="background-color: #e6fff7">
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="media-right media-top pull-left">
+							<img class="img-responsive" src="media/ERT logo.jpg">
+						</div>
+					</div>
+					<div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+						<div class="media-body">
+							<p>Lukas' time as a Project Software Test Engineer at ERT developed his attention to detail and need for efficiency. His work primarily consisted of running manual quality assurance tests on ERT's proprietary, customizable software. During his time there, he helped to ship software to many of the worlds top Pharmeceutical companies. He worked with multiple teams of test engineers to help bring products to clients in a timely fashion while rigorously maintaining and updating defect documentation to adhere to the strict regulations in the medical device industry.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 	<!--End of Content-->
 	<!--Footer-->
-	<div id="footer">
+	<div class="container" id="footer">
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-					<p class="text-muted" style="padding-top: 10px ">
-						<a class="text-muted" href="documents/Lukas Kruegle Resume.pdf">Resume</a>
-					</p>
-				</div>
+				<p class="text-muted footer-p">
+					<a class="text-muted" href="documents/Lukas Kruegle Resume.pdf">Resume
+						<i class="fa fa-file-pdf-o text-primary"></i>
+					</a>
+					<a class="footer-text text-muted" href="https://www.linkedin.com/in/lukas-kruegle-b93674135/">Linkedin
+						<i class="fa fa-linkedin-square text-primary"></i>
+					</a>
+					<a class="footer-text text-muted" href="https://github.com/lukaskruegle">GitHub
+						<i class="fa fa-github-square text-primary"></i>
+					</a>
+				</p>
 			</div>
 		</div>
 	</div>

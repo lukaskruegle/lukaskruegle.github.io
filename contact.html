@@ -8,59 +8,68 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     <title>Lukas Kruegle</title>
   </head>
 <body>
+  <div class="container-fluid" id="container">
     <div class="container">
       <!--Page Header-->
-    <div class="page-header">
-      <h1>Lukas Kruegle
-        <!--Navigation Bar-->
-        <h4>
-          <div class="row">
-            <ul class="list-inline pull-right" style="list-style-type: none">
-              <li><a href=index.html>About</a></li>
-              <li><a href=workexp.html>Work Experience</a></li>
-              <li><a href=projects.html>Projects</a></li>
-              <li><a href="music.html">Music</a></li>
-              <li><a href="theatre.html">Theatre</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
+      <div class="page-header">
+        <h1>Lukas Kruegle
+          <!--Navigation Bar-->
+          <h4>
+            <div class="row">
+              <ul class="list-inline pull-right" style="list-style-type: none">
+                <li><a href=index.html>About Me</a></li>
+                <li><a href=workexp.html>Work Experience</a></li>
+                <li><a href=projects.html>Projects</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="theatre.html">Theatre</a></li>
+                <li><a href="contact.html">Contact Me</a></li>
+              </ul>
+            </div>
+          </h4>
+          <!--End of Navigation Bar-->
+        </h1>
+      </div>
+      <!--End Page Header-->
+      
+      <!--Content-->
+      <div class="container" id="body">
+        <h2 class="media-heading">Get in Touch</h2>
+        <div class="media">
+          <div class="media-right media-top pull-right">
+            <img class="img-responsive" src="media/headshot1.jpg">
           </div>
-        </h4>
-        <!--End of Navigation Bar-->
-      </h1>
-    </div>
-    <!--End Page Header-->
-    
-    <!--Content-->
-    <div class="container">
-      <div class="media">
-        <div class="media-right media-top pull-right">
-          <div class="col-lg-2 col-md-2 col-sm-4 col-xs-12">
-            <img class="thumbnail" src="media/headshot1.jpg">
+          <div class="media-body">
+            <p><br>
+              <strong>Email:</strong> kruegle.l@husky.neu.edu<br>
+              <strong>Phone:</strong> (201) 450-8049
+            </p>
           </div>
-        </div>
-        <div class="media-body">
-          <h2 class="media-heading">Get in Touch</h3>
-          
-
-          <p>email me, linkedin, I dunno.</p>
         </div>
       </div>
     </div>
   </div>
   <!--End of Content-->
+
   <!--Footer-->
-  <div id="footer">
+  <div class="container" id="footer">
     <div class="container">
       <div class="row">
-        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
-          <p class="text-muted" style="padding-top: 10px ">
-            <a class="text-muted" href="documents/Lukas Kruegle Resume.pdf">Resume</a>
-          </p>
-        </div>
+        <p class="text-muted footer-p">
+          <a class="text-muted" href="documents/Lukas Kruegle Resume.pdf">Resume
+            <i class="fa fa-file-pdf-o text-primary"></i>
+          </a>
+          <a class="footer-text text-muted" href="https://www.linkedin.com/in/lukas-kruegle-b93674135/">Linkedin
+            <i class="fa fa-linkedin-square text-primary"></i>
+          </a>
+          <a class="footer-text text-muted" href="https://github.com/lukaskruegle">GitHub
+            <i class="fa fa-github-square text-primary"></i>
+          </a>
+        </p>
       </div>
     </div>
   </div>
